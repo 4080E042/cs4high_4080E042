@@ -98,3 +98,59 @@ root@kali:/KSU# ls
 # 在linux上開發python程式
 gedit test1.py
 python3 test1.py
+
+完成python課本第10章
+# 10-1
+print("hello!")
+print(3*2*(17-2.1))
+print("abc"+"def")
+word = "art"
+print(word.replace("r", "n"))
+答案
+hello!
+89.4
+abcdef
+ant
+a= 1
+b= 2
+c = a/b
+print(a, "/", b, "=", c) 
+add = str(a)+"/"+str(b)+"="+str(c)
+print(add)
+答案
+(1, '/', 2, '=', 0)
+1/2=0
+# 10-3
+input("Where do you live? ")
+print("I live in Boston. ")
+答案
+Where do you live? 4
+I live in Boston. 
+# 10-4
+user_place = input("Where do you live? ")
+text = user_place.capitalize()+ "!"
+print(text) 
+print("I hear it's nice there!") 
+答案
+Where do you live? 2
+Traceback (most recent call last):
+  File "test4.py", line 2, in <module>
+    text = user_place.capitalize()+ "!"
+AttributeError: 'int' object has no attribute 'capitalize'
+# 10-5
+num = int(input ("Enter a number to find the square of: "))
+user_input = input("Enter a integer to find the square of: ")
+num = int(user_input) 
+print(num*num)
+答案
+Enter a number to find the square of: 1
+Enter a integer to find the square of: 2
+4
+# 10-6
+num1 = float(input("Enter a number: "))
+num2 = float(input("Enter another number: "))
+print(num1, "*", num2, "=", num1*num2)
+答案Enter a number: 2
+Enter another number: 1
+(2.0, '*', 1.0, '=', 2.0)
+
